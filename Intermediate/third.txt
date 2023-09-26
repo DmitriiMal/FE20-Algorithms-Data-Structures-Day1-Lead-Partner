@@ -1,0 +1,20 @@
+input = 280;
+
+hundred = input / 100;
+
+fifty = (input % 100) / 50; 
+
+twenty = ((input % 100) % 50) / 20;
+
+ten = (((input % 100) % 50) % 20) / 10;
+
+
+output:
+
+hundred + " notes of 100 EUR, " +
+
+fifty + " note of  50 EUR, " +
+
+twenty + " note of 20 EUR and " +
+
+ten + " note of 10 EUR."
