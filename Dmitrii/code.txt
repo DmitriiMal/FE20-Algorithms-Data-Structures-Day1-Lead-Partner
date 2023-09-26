@@ -1,0 +1,7 @@
+n = 4;
+INPUT 3;
+OUTPUT: FALSE: 3 < n;
+INPUT 5;
+OUTPUT: FALSE: 3 < n;
+INPUT 4;
+ TRUE: 4 = n
